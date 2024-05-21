@@ -10,9 +10,7 @@
   - [Features](#features)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [Screenshots](#screenshots)
-  - [License](#license)
   - [Contact](#contact)
 
  
