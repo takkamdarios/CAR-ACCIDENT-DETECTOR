@@ -1,0 +1,63 @@
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore all bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+*.java
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore IDE and editor directories
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Ignore build and test output directories
+build/
+dist/
+site/
+coverage/
+.cache/
+*.egg-info/
+*.eggs/
+parts/
+bin/
+var/
+sdist/
+wheel/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ignore deployment configuration
+docker-compose.yml
+*.env
+*.config
+
+# Ignore log, data files
+*.log
+data/
+temp/
+*.csv
+*.json
+
+# Ignore other unnecessary files
+node_modules/
+bower_components/
