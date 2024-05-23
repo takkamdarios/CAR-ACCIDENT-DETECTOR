@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  car-accident-detector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      EMAIL_USER : 'haroldrajaonarison@gmail.com'
+      EMAIL_PASSWORD : 'password'
+    ports:
+      - '8501:8501'
